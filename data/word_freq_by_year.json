@@ -1,0 +1,2446 @@
+{
+  "BPD": {
+    "2016": [
+      {
+        "word": "life",
+        "rel_freq": 0.007604
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006864
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.006558
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.006456
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005359
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.005206
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004619
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.004185
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.004083
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004006
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003981
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003904
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003853
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.003853
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.003675
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003675
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003649
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.003598
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.00347
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.003292
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003266
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003113
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.003062
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.002858
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.002807
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002807
+      },
+      {
+        "word": "might",
+        "rel_freq": 0.002501
+      },
+      {
+        "word": "thinking",
+        "rel_freq": 0.00245
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.00245
+      },
+      {
+        "word": "hope",
+        "rel_freq": 0.002424
+      }
+    ],
+    "2017": [
+      {
+        "word": "life",
+        "rel_freq": 0.007435
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.006866
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.006618
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.006068
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.005563
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.00548
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.004608
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004608
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004434
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004213
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.00414
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.004066
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.0038
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.003782
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.003699
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003488
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003451
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003424
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.00335
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003295
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.00325
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.003057
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.003011
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.002836
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.002763
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.002754
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.00269
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002506
+      },
+      {
+        "word": "end",
+        "rel_freq": 0.002488
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.00246
+      }
+    ],
+    "2018": [
+      {
+        "word": "life",
+        "rel_freq": 0.007299
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.006939
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.006487
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.005815
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005538
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.005143
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.004914
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004497
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004321
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.00419
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004128
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.004036
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003852
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003764
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003746
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003711
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003614
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.00354
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003461
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003342
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003307
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.003298
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.002819
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.002793
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002736
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002723
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.002705
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.002697
+      },
+      {
+        "word": "shit",
+        "rel_freq": 0.002582
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.002547
+      }
+    ],
+    "2019": [
+      {
+        "word": "life",
+        "rel_freq": 0.007443
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.00742
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.006617
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005601
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.005253
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.005155
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004873
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00454
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004493
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004374
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.004341
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004267
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.004208
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003961
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003949
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003872
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003673
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.0035
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003417
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003295
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.003209
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.00315
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.003061
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.00304
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002954
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.002754
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.002752
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.002689
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002659
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.002573
+      }
+    ],
+    "2020": [
+      {
+        "word": "love",
+        "rel_freq": 0.007829
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.007495
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.007176
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.005675
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.005456
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005227
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.004942
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004544
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004471
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004369
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.004297
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.004068
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.00404
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003993
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003846
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003542
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003537
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003524
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003464
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003422
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.003407
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.00338
+      },
+      {
+        "word": "deleted",
+        "rel_freq": 0.003048
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.003041
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.002944
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.002909
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002879
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002826
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.002739
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.002689
+      }
+    ],
+    "2021": [
+      {
+        "word": "love",
+        "rel_freq": 0.00789
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.007267
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.007261
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.00563
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.005333
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005319
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004863
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00467
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.00466
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.004458
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004223
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004217
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004085
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003925
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003919
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003901
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003608
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003462
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003384
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.003362
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003318
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.003312
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003292
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.003276
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.003031
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002995
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.002961
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002925
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002909
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.002889
+      }
+    ],
+    "2022": [
+      {
+        "word": "love",
+        "rel_freq": 0.008215
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.007879
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.007463
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.005632
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.005405
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005386
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004833
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004553
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004513
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004372
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004354
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.004341
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.00429
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.004158
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003859
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003855
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003746
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.003744
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003601
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003574
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003488
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003307
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.003174
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.003166
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.00312
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002989
+      },
+      {
+        "word": "alone",
+        "rel_freq": 0.002974
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.002836
+      },
+      {
+        "word": "partner",
+        "rel_freq": 0.002821
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002747
+      }
+    ],
+    "2023": [
+      {
+        "word": "love",
+        "rel_freq": 0.008505
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.008073
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.007718
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006653
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.005121
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.004972
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00489
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004676
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.00463
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.004608
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004499
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.004416
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004266
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.004123
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.003967
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.00388
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.003829
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003802
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003802
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003737
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003732
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.0037
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003639
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003426
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.003382
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.003263
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.003137
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.003096
+      },
+      {
+        "word": "advice",
+        "rel_freq": 0.003088
+      },
+      {
+        "word": "partner",
+        "rel_freq": 0.002977
+      }
+    ],
+    "2024": [
+      {
+        "word": "love",
+        "rel_freq": 0.008629
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.007853
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.007385
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006846
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.005211
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.005061
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.00493
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.004841
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004694
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.004692
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004258
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.004243
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004185
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004165
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.004022
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003749
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003667
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.00364
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003634
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003619
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003616
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.003531
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.003499
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.003414
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003401
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.003376
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003282
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.00312
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002963
+      },
+      {
+        "word": "advice",
+        "rel_freq": 0.002927
+      }
+    ],
+    "2025": [
+      {
+        "word": "love",
+        "rel_freq": 0.007938
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.007872
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.007098
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006864
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.005498
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.005167
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.004978
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.004777
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.004706
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004674
+      },
+      {
+        "word": "hate",
+        "rel_freq": 0.004461
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004257
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.004128
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.004071
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.003976
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.00381
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.00379
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003748
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003696
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.003604
+      },
+      {
+        "word": "hard",
+        "rel_freq": 0.003428
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.00342
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003409
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.0034
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.003295
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003266
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.003222
+      },
+      {
+        "word": "advice",
+        "rel_freq": 0.002994
+      },
+      {
+        "word": "partner",
+        "rel_freq": 0.00297
+      },
+      {
+        "word": "nothing",
+        "rel_freq": 0.002935
+      }
+    ]
+  },
+  "BPDlovedones": {
+    "2016": [
+      {
+        "word": "friend",
+        "rel_freq": 0.0113
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.005592
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.005592
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.005475
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.005126
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.004893
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.00431
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.004194
+      },
+      {
+        "word": "home",
+        "rel_freq": 0.004194
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.004194
+      },
+      {
+        "word": "upset",
+        "rel_freq": 0.004077
+      },
+      {
+        "word": "night",
+        "rel_freq": 0.004077
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003961
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003728
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003611
+      },
+      {
+        "word": "girlfriend",
+        "rel_freq": 0.003495
+      },
+      {
+        "word": "two",
+        "rel_freq": 0.003378
+      },
+      {
+        "word": "abusive",
+        "rel_freq": 0.003262
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.003145
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.003029
+      },
+      {
+        "word": "parent",
+        "rel_freq": 0.003029
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002912
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.002912
+      },
+      {
+        "word": "another",
+        "rel_freq": 0.002912
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.002912
+      },
+      {
+        "word": "jan",
+        "rel_freq": 0.002796
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002679
+      },
+      {
+        "word": "met",
+        "rel_freq": 0.002679
+      },
+      {
+        "word": "left",
+        "rel_freq": 0.002679
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002563
+      }
+    ],
+    "2017": [
+      {
+        "word": "friend",
+        "rel_freq": 0.008025
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.006514
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.006137
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.005759
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.004626
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.003682
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003493
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.003304
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003304
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00321
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.00321
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.00321
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003116
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.003021
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.003021
+      },
+      {
+        "word": "victim",
+        "rel_freq": 0.002927
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.002927
+      },
+      {
+        "word": "feelings",
+        "rel_freq": 0.002832
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.002832
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.002832
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.002738
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.002738
+      },
+      {
+        "word": "making",
+        "rel_freq": 0.002644
+      },
+      {
+        "word": "loved",
+        "rel_freq": 0.002644
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.002644
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002549
+      },
+      {
+        "word": "two",
+        "rel_freq": 0.002549
+      },
+      {
+        "word": "night",
+        "rel_freq": 0.002455
+      },
+      {
+        "word": "issues",
+        "rel_freq": 0.002455
+      },
+      {
+        "word": "seemed",
+        "rel_freq": 0.002455
+      }
+    ],
+    "2018": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.007676
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.006512
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.006166
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.004952
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.004482
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004309
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003912
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003888
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003714
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00359
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003541
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003491
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003392
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003318
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003244
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003169
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.003169
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.00312
+      },
+      {
+        "word": "night",
+        "rel_freq": 0.003021
+      },
+      {
+        "word": "guy",
+        "rel_freq": 0.002922
+      },
+      {
+        "word": "left",
+        "rel_freq": 0.002848
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002773
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.002749
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.0026
+      },
+      {
+        "word": "another",
+        "rel_freq": 0.00255
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.00255
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.002526
+      },
+      {
+        "word": "later",
+        "rel_freq": 0.002501
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002451
+      },
+      {
+        "word": "shit",
+        "rel_freq": 0.002427
+      }
+    ],
+    "2019": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.006586
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.005584
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.005515
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.004398
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004193
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.004102
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.004057
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003965
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003829
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003646
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.003578
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003464
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.003418
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003373
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003373
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003236
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.003213
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003099
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.002803
+      },
+      {
+        "word": "nothing",
+        "rel_freq": 0.00278
+      },
+      {
+        "word": "emotional",
+        "rel_freq": 0.002735
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.002735
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.002712
+      },
+      {
+        "word": "night",
+        "rel_freq": 0.002552
+      },
+      {
+        "word": "shit",
+        "rel_freq": 0.002552
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002484
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.002484
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.002439
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002439
+      },
+      {
+        "word": "end",
+        "rel_freq": 0.002416
+      }
+    ],
+    "2020": [
+      {
+        "word": "love",
+        "rel_freq": 0.007012
+      },
+      {
+        "word": "relationship",
+        "rel_freq": 0.00669
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.005709
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.005211
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.004567
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.00423
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.003763
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.003747
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003618
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003361
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003345
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003297
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.003232
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003184
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.003168
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003168
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003007
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.002943
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002927
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002846
+      },
+      {
+        "word": "mom",
+        "rel_freq": 0.002782
+      },
+      {
+        "word": "nothing",
+        "rel_freq": 0.00275
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.002718
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.00267
+      },
+      {
+        "word": "another",
+        "rel_freq": 0.002654
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.002605
+      },
+      {
+        "word": "guy",
+        "rel_freq": 0.002589
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002525
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002428
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002428
+      }
+    ],
+    "2021": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.007825
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.005764
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.005381
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.004761
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.004706
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.004432
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004359
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004141
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003575
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003356
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.003356
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.00332
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.003192
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.003137
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003083
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003083
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002955
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.002846
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.002663
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.002535
+      },
+      {
+        "word": "night",
+        "rel_freq": 0.002535
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002499
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002499
+      },
+      {
+        "word": "end",
+        "rel_freq": 0.002499
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.002462
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002426
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.002408
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.00239
+      },
+      {
+        "word": "break",
+        "rel_freq": 0.00239
+      },
+      {
+        "word": "another",
+        "rel_freq": 0.002353
+      }
+    ],
+    "2022": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.007879
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006266
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.005737
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.005605
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.005116
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004217
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003992
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.003688
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003596
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003424
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003345
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.003292
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003252
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003159
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.003159
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.003093
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.003054
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.003027
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.003027
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.002922
+      },
+      {
+        "word": "partner",
+        "rel_freq": 0.002736
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002684
+      },
+      {
+        "word": "home",
+        "rel_freq": 0.00267
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.002644
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002604
+      },
+      {
+        "word": "left",
+        "rel_freq": 0.002551
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002538
+      },
+      {
+        "word": "nothing",
+        "rel_freq": 0.002525
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.002446
+      },
+      {
+        "word": "end",
+        "rel_freq": 0.002446
+      }
+    ],
+    "2023": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.008321
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.007196
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006505
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.005468
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004304
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.004067
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.003929
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.003909
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003859
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.003741
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.003553
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003346
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.003198
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003129
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.00306
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00306
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.002823
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.002803
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.002784
+      },
+      {
+        "word": "later",
+        "rel_freq": 0.002675
+      },
+      {
+        "word": "self",
+        "rel_freq": 0.002665
+      },
+      {
+        "word": "two",
+        "rel_freq": 0.002655
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.002626
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002606
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.002527
+      },
+      {
+        "word": "nothing",
+        "rel_freq": 0.002507
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002408
+      },
+      {
+        "word": "met",
+        "rel_freq": 0.002408
+      },
+      {
+        "word": "contact",
+        "rel_freq": 0.002389
+      },
+      {
+        "word": "without",
+        "rel_freq": 0.002389
+      }
+    ],
+    "2024": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.008261
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006988
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.006351
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.00568
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.004898
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.00458
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004373
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.004303
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.004179
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.003688
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.00339
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003272
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.003266
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003224
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.003093
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003044
+      },
+      {
+        "word": "another",
+        "rel_freq": 0.002823
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.002809
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002802
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002781
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.002747
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.002671
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002664
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.002594
+      },
+      {
+        "word": "met",
+        "rel_freq": 0.002553
+      },
+      {
+        "word": "end",
+        "rel_freq": 0.002553
+      },
+      {
+        "word": "left",
+        "rel_freq": 0.002525
+      },
+      {
+        "word": "later",
+        "rel_freq": 0.00247
+      },
+      {
+        "word": "anymore",
+        "rel_freq": 0.002449
+      },
+      {
+        "word": "hurt",
+        "rel_freq": 0.002325
+      }
+    ],
+    "2025": [
+      {
+        "word": "relationship",
+        "rel_freq": 0.007632
+      },
+      {
+        "word": "life",
+        "rel_freq": 0.006605
+      },
+      {
+        "word": "love",
+        "rel_freq": 0.006171
+      },
+      {
+        "word": "friend",
+        "rel_freq": 0.006092
+      },
+      {
+        "word": "everything",
+        "rel_freq": 0.004595
+      },
+      {
+        "word": "wanted",
+        "rel_freq": 0.004534
+      },
+      {
+        "word": "work",
+        "rel_freq": 0.004369
+      },
+      {
+        "word": "together",
+        "rel_freq": 0.003959
+      },
+      {
+        "word": "good",
+        "rel_freq": 0.003477
+      },
+      {
+        "word": "anything",
+        "rel_freq": 0.003403
+      },
+      {
+        "word": "help",
+        "rel_freq": 0.003312
+      },
+      {
+        "word": "talk",
+        "rel_freq": 0.003238
+      },
+      {
+        "word": "long",
+        "rel_freq": 0.003171
+      },
+      {
+        "word": "left",
+        "rel_freq": 0.002982
+      },
+      {
+        "word": "tried",
+        "rel_freq": 0.002982
+      },
+      {
+        "word": "bad",
+        "rel_freq": 0.002957
+      },
+      {
+        "word": "around",
+        "rel_freq": 0.002951
+      },
+      {
+        "word": "later",
+        "rel_freq": 0.002945
+      },
+      {
+        "word": "best",
+        "rel_freq": 0.00289
+      },
+      {
+        "word": "family",
+        "rel_freq": 0.002829
+      },
+      {
+        "word": "leave",
+        "rel_freq": 0.002725
+      },
+      {
+        "word": "right",
+        "rel_freq": 0.002695
+      },
+      {
+        "word": "met",
+        "rel_freq": 0.002615
+      },
+      {
+        "word": "need",
+        "rel_freq": 0.002523
+      },
+      {
+        "word": "two",
+        "rel_freq": 0.002462
+      },
+      {
+        "word": "care",
+        "rel_freq": 0.002456
+      },
+      {
+        "word": "better",
+        "rel_freq": 0.002456
+      },
+      {
+        "word": "end",
+        "rel_freq": 0.00245
+      },
+      {
+        "word": "away",
+        "rel_freq": 0.002444
+      },
+      {
+        "word": "talking",
+        "rel_freq": 0.002407
+      }
+    ]
+  }
+}

@@ -1,0 +1,4138 @@
+{
+  "2016": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 121
+      },
+      {
+        "id": "friend",
+        "weight": 258
+      },
+      {
+        "id": "close",
+        "weight": 28
+      },
+      {
+        "id": "hate",
+        "weight": 24
+      },
+      {
+        "id": "love",
+        "weight": 124
+      },
+      {
+        "id": "health",
+        "weight": 24
+      },
+      {
+        "id": "mental",
+        "weight": 39
+      },
+      {
+        "id": "harm",
+        "weight": 23
+      },
+      {
+        "id": "self",
+        "weight": 53
+      },
+      {
+        "id": "relationship",
+        "weight": 121
+      },
+      {
+        "id": "good",
+        "weight": 132
+      },
+      {
+        "id": "romantic",
+        "weight": 21
+      },
+      {
+        "id": "around",
+        "weight": 21
+      },
+      {
+        "id": "life",
+        "weight": 197
+      },
+      {
+        "id": "high",
+        "weight": 20
+      },
+      {
+        "id": "school",
+        "weight": 20
+      },
+      {
+        "id": "media",
+        "weight": 20
+      },
+      {
+        "id": "social",
+        "weight": 20
+      },
+      {
+        "id": "anything",
+        "weight": 33
+      },
+      {
+        "id": "bad",
+        "weight": 60
+      },
+      {
+        "id": "hard",
+        "weight": 31
+      },
+      {
+        "id": "tried",
+        "weight": 18
+      },
+      {
+        "id": "sense",
+        "weight": 17
+      },
+      {
+        "id": "talk",
+        "weight": 60
+      },
+      {
+        "id": "happy",
+        "weight": 46
+      },
+      {
+        "id": "anymore",
+        "weight": 16
+      },
+      {
+        "id": "without",
+        "weight": 30
+      },
+      {
+        "id": "illness",
+        "weight": 15
+      },
+      {
+        "id": "alone",
+        "weight": 15
+      },
+      {
+        "id": "leave",
+        "weight": 15
+      },
+      {
+        "id": "everything",
+        "weight": 56
+      },
+      {
+        "id": "girl",
+        "weight": 15
+      },
+      {
+        "id": "boyfriend",
+        "weight": 15
+      },
+      {
+        "id": "helps",
+        "weight": 14
+      },
+      {
+        "id": "hope",
+        "weight": 14
+      },
+      {
+        "id": "healthy",
+        "weight": 13
+      },
+      {
+        "id": "wanted",
+        "weight": 13
+      },
+      {
+        "id": "guy",
+        "weight": 13
+      },
+      {
+        "id": "aware",
+        "weight": 13
+      },
+      {
+        "id": "might",
+        "weight": 12
+      },
+      {
+        "id": "nothing",
+        "weight": 12
+      },
+      {
+        "id": "anxiety",
+        "weight": 12
+      },
+      {
+        "id": "depression",
+        "weight": 12
+      },
+      {
+        "id": "better",
+        "weight": 12
+      },
+      {
+        "id": "work",
+        "weight": 12
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 121
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 28
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 24
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 24
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 23
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 23
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 23
+      },
+      {
+        "source": "relationship",
+        "target": "romantic",
+        "value": 21
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 21
+      },
+      {
+        "source": "high",
+        "target": "school",
+        "value": 20
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 20
+      },
+      {
+        "source": "anything",
+        "target": "life",
+        "value": 19
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 19
+      },
+      {
+        "source": "bad",
+        "target": "life",
+        "value": 19
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 18
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 18
+      },
+      {
+        "source": "hard",
+        "target": "tried",
+        "value": 18
+      },
+      {
+        "source": "self",
+        "target": "sense",
+        "value": 17
+      },
+      {
+        "source": "good",
+        "target": "talk",
+        "value": 17
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 17
+      },
+      {
+        "source": "happy",
+        "target": "relationship",
+        "value": 17
+      },
+      {
+        "source": "anymore",
+        "target": "talk",
+        "value": 16
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 16
+      },
+      {
+        "source": "illness",
+        "target": "mental",
+        "value": 15
+      },
+      {
+        "source": "alone",
+        "target": "leave",
+        "value": 15
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 15
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 15
+      },
+      {
+        "source": "happy",
+        "target": "life",
+        "value": 15
+      },
+      {
+        "source": "friend",
+        "target": "girl",
+        "value": 15
+      },
+      {
+        "source": "boyfriend",
+        "target": "friend",
+        "value": 15
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 15
+      },
+      {
+        "source": "relationship",
+        "target": "without",
+        "value": 14
+      },
+      {
+        "source": "bad",
+        "target": "friend",
+        "value": 14
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 14
+      },
+      {
+        "source": "anything",
+        "target": "bad",
+        "value": 14
+      },
+      {
+        "source": "everything",
+        "target": "good",
+        "value": 14
+      },
+      {
+        "source": "happy",
+        "target": "love",
+        "value": 14
+      },
+      {
+        "source": "helps",
+        "target": "hope",
+        "value": 14
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 14
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 13
+      },
+      {
+        "source": "everything",
+        "target": "wanted",
+        "value": 13
+      },
+      {
+        "source": "life",
+        "target": "talk",
+        "value": 13
+      },
+      {
+        "source": "friend",
+        "target": "guy",
+        "value": 13
+      },
+      {
+        "source": "good",
+        "target": "hard",
+        "value": 13
+      },
+      {
+        "source": "aware",
+        "target": "self",
+        "value": 13
+      },
+      {
+        "source": "bad",
+        "target": "love",
+        "value": 13
+      },
+      {
+        "source": "good",
+        "target": "might",
+        "value": 12
+      },
+      {
+        "source": "life",
+        "target": "nothing",
+        "value": 12
+      },
+      {
+        "source": "anxiety",
+        "target": "depression",
+        "value": 12
+      },
+      {
+        "source": "better",
+        "target": "work",
+        "value": 12
+      }
+    ]
+  },
+  "2017": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 290
+      },
+      {
+        "id": "friend",
+        "weight": 515
+      },
+      {
+        "id": "bad",
+        "weight": 119
+      },
+      {
+        "id": "good",
+        "weight": 337
+      },
+      {
+        "id": "health",
+        "weight": 75
+      },
+      {
+        "id": "mental",
+        "weight": 75
+      },
+      {
+        "id": "love",
+        "weight": 361
+      },
+      {
+        "id": "relationship",
+        "weight": 486
+      },
+      {
+        "id": "life",
+        "weight": 676
+      },
+      {
+        "id": "harm",
+        "weight": 60
+      },
+      {
+        "id": "self",
+        "weight": 96
+      },
+      {
+        "id": "media",
+        "weight": 54
+      },
+      {
+        "id": "social",
+        "weight": 54
+      },
+      {
+        "id": "better",
+        "weight": 159
+      },
+      {
+        "id": "wanted",
+        "weight": 47
+      },
+      {
+        "id": "without",
+        "weight": 80
+      },
+      {
+        "id": "talk",
+        "weight": 43
+      },
+      {
+        "id": "everything",
+        "weight": 41
+      },
+      {
+        "id": "feelings",
+        "weight": 75
+      },
+      {
+        "id": "work",
+        "weight": 72
+      },
+      {
+        "id": "together",
+        "weight": 39
+      },
+      {
+        "id": "anxiety",
+        "weight": 39
+      },
+      {
+        "id": "depression",
+        "weight": 39
+      },
+      {
+        "id": "ended",
+        "weight": 38
+      },
+      {
+        "id": "hard",
+        "weight": 102
+      },
+      {
+        "id": "abandonment",
+        "weight": 69
+      },
+      {
+        "id": "issues",
+        "weight": 37
+      },
+      {
+        "id": "away",
+        "weight": 36
+      },
+      {
+        "id": "push",
+        "weight": 36
+      },
+      {
+        "id": "care",
+        "weight": 105
+      },
+      {
+        "id": "hate",
+        "weight": 35
+      },
+      {
+        "id": "around",
+        "weight": 33
+      },
+      {
+        "id": "close",
+        "weight": 33
+      },
+      {
+        "id": "real",
+        "weight": 33
+      },
+      {
+        "id": "living",
+        "weight": 33
+      },
+      {
+        "id": "relationships",
+        "weight": 32
+      },
+      {
+        "id": "high",
+        "weight": 32
+      },
+      {
+        "id": "school",
+        "weight": 32
+      },
+      {
+        "id": "fear",
+        "weight": 32
+      },
+      {
+        "id": "healthy",
+        "weight": 32
+      },
+      {
+        "id": "talking",
+        "weight": 32
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 206
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 76
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 75
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 67
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 65
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 64
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 60
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 59
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 55
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 54
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 49
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 49
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 48
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 47
+      },
+      {
+        "source": "life",
+        "target": "wanted",
+        "value": 47
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 47
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 46
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 43
+      },
+      {
+        "source": "bad",
+        "target": "relationship",
+        "value": 43
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 42
+      },
+      {
+        "source": "better",
+        "target": "good",
+        "value": 42
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 41
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 41
+      },
+      {
+        "source": "feelings",
+        "target": "love",
+        "value": 40
+      },
+      {
+        "source": "life",
+        "target": "work",
+        "value": 40
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 39
+      },
+      {
+        "source": "anxiety",
+        "target": "depression",
+        "value": 39
+      },
+      {
+        "source": "ended",
+        "target": "relationship",
+        "value": 38
+      },
+      {
+        "source": "hard",
+        "target": "relationship",
+        "value": 38
+      },
+      {
+        "source": "abandonment",
+        "target": "issues",
+        "value": 37
+      },
+      {
+        "source": "away",
+        "target": "push",
+        "value": 36
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 36
+      },
+      {
+        "source": "care",
+        "target": "self",
+        "value": 36
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 35
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 35
+      },
+      {
+        "source": "better",
+        "target": "love",
+        "value": 35
+      },
+      {
+        "source": "feelings",
+        "target": "life",
+        "value": 35
+      },
+      {
+        "source": "care",
+        "target": "life",
+        "value": 33
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 33
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 33
+      },
+      {
+        "source": "life",
+        "target": "real",
+        "value": 33
+      },
+      {
+        "source": "life",
+        "target": "living",
+        "value": 33
+      },
+      {
+        "source": "better",
+        "target": "without",
+        "value": 33
+      },
+      {
+        "source": "relationship",
+        "target": "relationships",
+        "value": 32
+      },
+      {
+        "source": "high",
+        "target": "school",
+        "value": 32
+      },
+      {
+        "source": "hard",
+        "target": "work",
+        "value": 32
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 32
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 32
+      },
+      {
+        "source": "friend",
+        "target": "talking",
+        "value": 32
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 32
+      }
+    ]
+  },
+  "2018": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 734
+      },
+      {
+        "id": "friend",
+        "weight": 1068
+      },
+      {
+        "id": "health",
+        "weight": 166
+      },
+      {
+        "id": "mental",
+        "weight": 243
+      },
+      {
+        "id": "media",
+        "weight": 150
+      },
+      {
+        "id": "social",
+        "weight": 150
+      },
+      {
+        "id": "life",
+        "weight": 1297
+      },
+      {
+        "id": "love",
+        "weight": 901
+      },
+      {
+        "id": "relationship",
+        "weight": 897
+      },
+      {
+        "id": "bad",
+        "weight": 123
+      },
+      {
+        "id": "good",
+        "weight": 590
+      },
+      {
+        "id": "harm",
+        "weight": 118
+      },
+      {
+        "id": "self",
+        "weight": 118
+      },
+      {
+        "id": "abandonment",
+        "weight": 115
+      },
+      {
+        "id": "fear",
+        "weight": 115
+      },
+      {
+        "id": "close",
+        "weight": 111
+      },
+      {
+        "id": "better",
+        "weight": 249
+      },
+      {
+        "id": "healthy",
+        "weight": 104
+      },
+      {
+        "id": "hate",
+        "weight": 100
+      },
+      {
+        "id": "without",
+        "weight": 164
+      },
+      {
+        "id": "talk",
+        "weight": 232
+      },
+      {
+        "id": "hard",
+        "weight": 308
+      },
+      {
+        "id": "hope",
+        "weight": 78
+      },
+      {
+        "id": "illness",
+        "weight": 77
+      },
+      {
+        "id": "care",
+        "weight": 77
+      },
+      {
+        "id": "end",
+        "weight": 141
+      },
+      {
+        "id": "loved",
+        "weight": 76
+      },
+      {
+        "id": "live",
+        "weight": 75
+      },
+      {
+        "id": "away",
+        "weight": 74
+      },
+      {
+        "id": "push",
+        "weight": 74
+      },
+      {
+        "id": "work",
+        "weight": 141
+      },
+      {
+        "id": "everything",
+        "weight": 72
+      },
+      {
+        "id": "high",
+        "weight": 72
+      },
+      {
+        "id": "school",
+        "weight": 72
+      },
+      {
+        "id": "around",
+        "weight": 72
+      },
+      {
+        "id": "romantic",
+        "weight": 71
+      },
+      {
+        "id": "happy",
+        "weight": 70
+      },
+      {
+        "id": "anything",
+        "weight": 68
+      },
+      {
+        "id": "anxiety",
+        "weight": 67
+      },
+      {
+        "id": "depression",
+        "weight": 67
+      },
+      {
+        "id": "anymore",
+        "weight": 66
+      },
+      {
+        "id": "feelings",
+        "weight": 66
+      },
+      {
+        "id": "talking",
+        "weight": 65
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 492
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 166
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 150
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 137
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 132
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 123
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 118
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 115
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 113
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 111
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 107
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 105
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 104
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 102
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 101
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 100
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 98
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 97
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 93
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 92
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 83
+      },
+      {
+        "source": "hard",
+        "target": "relationship",
+        "value": 83
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 81
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 80
+      },
+      {
+        "source": "better",
+        "target": "hope",
+        "value": 78
+      },
+      {
+        "source": "illness",
+        "target": "mental",
+        "value": 77
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 77
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 76
+      },
+      {
+        "source": "end",
+        "target": "relationship",
+        "value": 76
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 76
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 75
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 75
+      },
+      {
+        "source": "life",
+        "target": "live",
+        "value": 75
+      },
+      {
+        "source": "away",
+        "target": "push",
+        "value": 74
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 74
+      },
+      {
+        "source": "relationship",
+        "target": "work",
+        "value": 73
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 72
+      },
+      {
+        "source": "high",
+        "target": "school",
+        "value": 72
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 72
+      },
+      {
+        "source": "relationship",
+        "target": "romantic",
+        "value": 71
+      },
+      {
+        "source": "happy",
+        "target": "life",
+        "value": 70
+      },
+      {
+        "source": "good",
+        "target": "talk",
+        "value": 70
+      },
+      {
+        "source": "anything",
+        "target": "life",
+        "value": 68
+      },
+      {
+        "source": "hard",
+        "target": "work",
+        "value": 68
+      },
+      {
+        "source": "anxiety",
+        "target": "depression",
+        "value": 67
+      },
+      {
+        "source": "anymore",
+        "target": "life",
+        "value": 66
+      },
+      {
+        "source": "feelings",
+        "target": "love",
+        "value": 66
+      },
+      {
+        "source": "better",
+        "target": "without",
+        "value": 66
+      },
+      {
+        "source": "talk",
+        "target": "talking",
+        "value": 65
+      },
+      {
+        "source": "end",
+        "target": "life",
+        "value": 65
+      }
+    ]
+  },
+  "2019": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 1068
+      },
+      {
+        "id": "friend",
+        "weight": 1425
+      },
+      {
+        "id": "health",
+        "weight": 315
+      },
+      {
+        "id": "mental",
+        "weight": 447
+      },
+      {
+        "id": "life",
+        "weight": 1676
+      },
+      {
+        "id": "love",
+        "weight": 1738
+      },
+      {
+        "id": "harm",
+        "weight": 199
+      },
+      {
+        "id": "self",
+        "weight": 199
+      },
+      {
+        "id": "media",
+        "weight": 188
+      },
+      {
+        "id": "social",
+        "weight": 188
+      },
+      {
+        "id": "healthy",
+        "weight": 178
+      },
+      {
+        "id": "relationship",
+        "weight": 1370
+      },
+      {
+        "id": "without",
+        "weight": 274
+      },
+      {
+        "id": "bad",
+        "weight": 168
+      },
+      {
+        "id": "good",
+        "weight": 927
+      },
+      {
+        "id": "better",
+        "weight": 701
+      },
+      {
+        "id": "hate",
+        "weight": 250
+      },
+      {
+        "id": "care",
+        "weight": 140
+      },
+      {
+        "id": "talk",
+        "weight": 136
+      },
+      {
+        "id": "everything",
+        "weight": 246
+      },
+      {
+        "id": "illness",
+        "weight": 132
+      },
+      {
+        "id": "abandonment",
+        "weight": 130
+      },
+      {
+        "id": "fear",
+        "weight": 130
+      },
+      {
+        "id": "loved",
+        "weight": 124
+      },
+      {
+        "id": "close",
+        "weight": 116
+      },
+      {
+        "id": "hard",
+        "weight": 321
+      },
+      {
+        "id": "hope",
+        "weight": 115
+      },
+      {
+        "id": "anything",
+        "weight": 113
+      },
+      {
+        "id": "away",
+        "weight": 112
+      },
+      {
+        "id": "push",
+        "weight": 112
+      },
+      {
+        "id": "end",
+        "weight": 110
+      },
+      {
+        "id": "hurt",
+        "weight": 105
+      },
+      {
+        "id": "mood",
+        "weight": 105
+      },
+      {
+        "id": "swings",
+        "weight": 105
+      },
+      {
+        "id": "live",
+        "weight": 105
+      },
+      {
+        "id": "happy",
+        "weight": 104
+      },
+      {
+        "id": "fucking",
+        "weight": 101
+      },
+      {
+        "id": "work",
+        "weight": 195
+      },
+      {
+        "id": "together",
+        "weight": 99
+      },
+      {
+        "id": "toxic",
+        "weight": 97
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 709
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 315
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 255
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 199
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 188
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 178
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 172
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 168
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 157
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 157
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 154
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 149
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 149
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 140
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 139
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 136
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 135
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 133
+      },
+      {
+        "source": "illness",
+        "target": "mental",
+        "value": 132
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 130
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 129
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 125
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 124
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 119
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 118
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 116
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 116
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 116
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 115
+      },
+      {
+        "source": "better",
+        "target": "hope",
+        "value": 115
+      },
+      {
+        "source": "better",
+        "target": "relationship",
+        "value": 114
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 113
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 113
+      },
+      {
+        "source": "away",
+        "target": "push",
+        "value": 112
+      },
+      {
+        "source": "better",
+        "target": "good",
+        "value": 110
+      },
+      {
+        "source": "end",
+        "target": "relationship",
+        "value": 110
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 109
+      },
+      {
+        "source": "hurt",
+        "target": "love",
+        "value": 105
+      },
+      {
+        "source": "mood",
+        "target": "swings",
+        "value": 105
+      },
+      {
+        "source": "life",
+        "target": "live",
+        "value": 105
+      },
+      {
+        "source": "happy",
+        "target": "life",
+        "value": 104
+      },
+      {
+        "source": "better",
+        "target": "love",
+        "value": 103
+      },
+      {
+        "source": "better",
+        "target": "without",
+        "value": 102
+      },
+      {
+        "source": "fucking",
+        "target": "hate",
+        "value": 101
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 100
+      },
+      {
+        "source": "life",
+        "target": "work",
+        "value": 99
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 99
+      },
+      {
+        "source": "good",
+        "target": "hard",
+        "value": 97
+      },
+      {
+        "source": "relationship",
+        "target": "toxic",
+        "value": 97
+      },
+      {
+        "source": "relationship",
+        "target": "work",
+        "value": 96
+      }
+    ]
+  },
+  "2020": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 1374
+      },
+      {
+        "id": "friend",
+        "weight": 1941
+      },
+      {
+        "id": "health",
+        "weight": 443
+      },
+      {
+        "id": "mental",
+        "weight": 599
+      },
+      {
+        "id": "media",
+        "weight": 319
+      },
+      {
+        "id": "social",
+        "weight": 319
+      },
+      {
+        "id": "harm",
+        "weight": 296
+      },
+      {
+        "id": "self",
+        "weight": 296
+      },
+      {
+        "id": "healthy",
+        "weight": 296
+      },
+      {
+        "id": "relationship",
+        "weight": 2065
+      },
+      {
+        "id": "life",
+        "weight": 2074
+      },
+      {
+        "id": "love",
+        "weight": 2597
+      },
+      {
+        "id": "without",
+        "weight": 350
+      },
+      {
+        "id": "abandonment",
+        "weight": 194
+      },
+      {
+        "id": "fear",
+        "weight": 194
+      },
+      {
+        "id": "hate",
+        "weight": 191
+      },
+      {
+        "id": "better",
+        "weight": 572
+      },
+      {
+        "id": "care",
+        "weight": 185
+      },
+      {
+        "id": "bad",
+        "weight": 184
+      },
+      {
+        "id": "good",
+        "weight": 843
+      },
+      {
+        "id": "hard",
+        "weight": 310
+      },
+      {
+        "id": "close",
+        "weight": 169
+      },
+      {
+        "id": "away",
+        "weight": 169
+      },
+      {
+        "id": "push",
+        "weight": 169
+      },
+      {
+        "id": "feelings",
+        "weight": 163
+      },
+      {
+        "id": "toxic",
+        "weight": 162
+      },
+      {
+        "id": "illness",
+        "weight": 156
+      },
+      {
+        "id": "loved",
+        "weight": 153
+      },
+      {
+        "id": "talk",
+        "weight": 396
+      },
+      {
+        "id": "everything",
+        "weight": 290
+      },
+      {
+        "id": "anything",
+        "weight": 272
+      },
+      {
+        "id": "work",
+        "weight": 137
+      },
+      {
+        "id": "anymore",
+        "weight": 259
+      },
+      {
+        "id": "around",
+        "weight": 134
+      },
+      {
+        "id": "romantic",
+        "weight": 129
+      },
+      {
+        "id": "happy",
+        "weight": 247
+      },
+      {
+        "id": "together",
+        "weight": 121
+      },
+      {
+        "id": "end",
+        "weight": 120
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 923
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 443
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 319
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 296
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 296
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 257
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 253
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 226
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 197
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 196
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 194
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 191
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 187
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 186
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 185
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 184
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 177
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 174
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 173
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 169
+      },
+      {
+        "source": "away",
+        "target": "push",
+        "value": 169
+      },
+      {
+        "source": "feelings",
+        "target": "love",
+        "value": 163
+      },
+      {
+        "source": "relationship",
+        "target": "toxic",
+        "value": 162
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 161
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 160
+      },
+      {
+        "source": "illness",
+        "target": "mental",
+        "value": 156
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 154
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 154
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 153
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 151
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 151
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 148
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 146
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 142
+      },
+      {
+        "source": "relationship",
+        "target": "work",
+        "value": 137
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 137
+      },
+      {
+        "source": "better",
+        "target": "love",
+        "value": 136
+      },
+      {
+        "source": "anymore",
+        "target": "love",
+        "value": 136
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 134
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 130
+      },
+      {
+        "source": "relationship",
+        "target": "romantic",
+        "value": 129
+      },
+      {
+        "source": "anything",
+        "target": "life",
+        "value": 126
+      },
+      {
+        "source": "better",
+        "target": "relationship",
+        "value": 126
+      },
+      {
+        "source": "happy",
+        "target": "love",
+        "value": 125
+      },
+      {
+        "source": "better",
+        "target": "without",
+        "value": 124
+      },
+      {
+        "source": "anymore",
+        "target": "talk",
+        "value": 123
+      },
+      {
+        "source": "happy",
+        "target": "life",
+        "value": 122
+      },
+      {
+        "source": "life",
+        "target": "talk",
+        "value": 122
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 121
+      },
+      {
+        "source": "end",
+        "target": "relationship",
+        "value": 120
+      }
+    ]
+  },
+  "2021": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 1517
+      },
+      {
+        "id": "friend",
+        "weight": 2119
+      },
+      {
+        "id": "health",
+        "weight": 554
+      },
+      {
+        "id": "mental",
+        "weight": 735
+      },
+      {
+        "id": "life",
+        "weight": 2598
+      },
+      {
+        "id": "love",
+        "weight": 3401
+      },
+      {
+        "id": "relationship",
+        "weight": 2563
+      },
+      {
+        "id": "harm",
+        "weight": 340
+      },
+      {
+        "id": "self",
+        "weight": 340
+      },
+      {
+        "id": "healthy",
+        "weight": 284
+      },
+      {
+        "id": "media",
+        "weight": 270
+      },
+      {
+        "id": "social",
+        "weight": 270
+      },
+      {
+        "id": "better",
+        "weight": 746
+      },
+      {
+        "id": "without",
+        "weight": 414
+      },
+      {
+        "id": "abandonment",
+        "weight": 229
+      },
+      {
+        "id": "fear",
+        "weight": 229
+      },
+      {
+        "id": "hard",
+        "weight": 887
+      },
+      {
+        "id": "hate",
+        "weight": 222
+      },
+      {
+        "id": "good",
+        "weight": 1031
+      },
+      {
+        "id": "bad",
+        "weight": 213
+      },
+      {
+        "id": "everything",
+        "weight": 392
+      },
+      {
+        "id": "care",
+        "weight": 205
+      },
+      {
+        "id": "anything",
+        "weight": 204
+      },
+      {
+        "id": "close",
+        "weight": 197
+      },
+      {
+        "id": "toxic",
+        "weight": 190
+      },
+      {
+        "id": "loved",
+        "weight": 187
+      },
+      {
+        "id": "happy",
+        "weight": 345
+      },
+      {
+        "id": "work",
+        "weight": 351
+      },
+      {
+        "id": "illness",
+        "weight": 181
+      },
+      {
+        "id": "together",
+        "weight": 179
+      },
+      {
+        "id": "partner",
+        "weight": 178
+      },
+      {
+        "id": "around",
+        "weight": 177
+      },
+      {
+        "id": "talk",
+        "weight": 339
+      },
+      {
+        "id": "end",
+        "weight": 176
+      },
+      {
+        "id": "anymore",
+        "weight": 167
+      },
+      {
+        "id": "feelings",
+        "weight": 160
+      },
+      {
+        "id": "hope",
+        "weight": 152
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 969
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 554
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 396
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 364
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 340
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 284
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 270
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 255
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 253
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 241
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 229
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 226
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 222
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 217
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 213
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 213
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 210
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 205
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 204
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 203
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 197
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 195
+      },
+      {
+        "source": "relationship",
+        "target": "toxic",
+        "value": 190
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 190
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 187
+      },
+      {
+        "source": "happy",
+        "target": "life",
+        "value": 187
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 187
+      },
+      {
+        "source": "relationship",
+        "target": "work",
+        "value": 185
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 185
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 182
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 182
+      },
+      {
+        "source": "better",
+        "target": "love",
+        "value": 181
+      },
+      {
+        "source": "illness",
+        "target": "mental",
+        "value": 181
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 179
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 178
+      },
+      {
+        "source": "partner",
+        "target": "relationship",
+        "value": 178
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 177
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 176
+      },
+      {
+        "source": "end",
+        "target": "relationship",
+        "value": 176
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 176
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 173
+      },
+      {
+        "source": "love",
+        "target": "without",
+        "value": 173
+      },
+      {
+        "source": "anymore",
+        "target": "life",
+        "value": 167
+      },
+      {
+        "source": "hard",
+        "target": "work",
+        "value": 166
+      },
+      {
+        "source": "hard",
+        "target": "relationship",
+        "value": 164
+      },
+      {
+        "source": "love",
+        "target": "talk",
+        "value": 163
+      },
+      {
+        "source": "feelings",
+        "target": "love",
+        "value": 160
+      },
+      {
+        "source": "happy",
+        "target": "love",
+        "value": 158
+      },
+      {
+        "source": "better",
+        "target": "hard",
+        "value": 158
+      },
+      {
+        "source": "better",
+        "target": "hope",
+        "value": 152
+      }
+    ]
+  },
+  "2022": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 1697
+      },
+      {
+        "id": "friend",
+        "weight": 2158
+      },
+      {
+        "id": "health",
+        "weight": 582
+      },
+      {
+        "id": "mental",
+        "weight": 582
+      },
+      {
+        "id": "healthy",
+        "weight": 421
+      },
+      {
+        "id": "relationship",
+        "weight": 3284
+      },
+      {
+        "id": "life",
+        "weight": 3116
+      },
+      {
+        "id": "love",
+        "weight": 3376
+      },
+      {
+        "id": "hate",
+        "weight": 662
+      },
+      {
+        "id": "without",
+        "weight": 286
+      },
+      {
+        "id": "care",
+        "weight": 284
+      },
+      {
+        "id": "media",
+        "weight": 272
+      },
+      {
+        "id": "social",
+        "weight": 272
+      },
+      {
+        "id": "good",
+        "weight": 1136
+      },
+      {
+        "id": "harm",
+        "weight": 266
+      },
+      {
+        "id": "self",
+        "weight": 266
+      },
+      {
+        "id": "bad",
+        "weight": 435
+      },
+      {
+        "id": "better",
+        "weight": 604
+      },
+      {
+        "id": "partner",
+        "weight": 241
+      },
+      {
+        "id": "close",
+        "weight": 239
+      },
+      {
+        "id": "everything",
+        "weight": 600
+      },
+      {
+        "id": "ruin",
+        "weight": 412
+      },
+      {
+        "id": "anything",
+        "weight": 222
+      },
+      {
+        "id": "abandonment",
+        "weight": 218
+      },
+      {
+        "id": "fear",
+        "weight": 218
+      },
+      {
+        "id": "feelings",
+        "weight": 392
+      },
+      {
+        "id": "work",
+        "weight": 204
+      },
+      {
+        "id": "loved",
+        "weight": 203
+      },
+      {
+        "id": "fucking",
+        "weight": 196
+      },
+      {
+        "id": "toxic",
+        "weight": 194
+      },
+      {
+        "id": "anymore",
+        "weight": 370
+      },
+      {
+        "id": "added",
+        "weight": 382
+      },
+      {
+        "id": "hard",
+        "weight": 360
+      },
+      {
+        "id": "around",
+        "weight": 183
+      },
+      {
+        "id": "end",
+        "weight": 178
+      },
+      {
+        "id": "live",
+        "weight": 171
+      },
+      {
+        "id": "together",
+        "weight": 168
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 1080
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 582
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 421
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 383
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 379
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 291
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 286
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 284
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 272
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 266
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 266
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 261
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 256
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 246
+      },
+      {
+        "source": "partner",
+        "target": "relationship",
+        "value": 241
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 239
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 233
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 228
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 228
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 224
+      },
+      {
+        "source": "life",
+        "target": "ruin",
+        "value": 222
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 222
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 218
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 218
+      },
+      {
+        "source": "feelings",
+        "target": "love",
+        "value": 213
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 211
+      },
+      {
+        "source": "relationship",
+        "target": "work",
+        "value": 204
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 203
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 203
+      },
+      {
+        "source": "fucking",
+        "target": "hate",
+        "value": 196
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 195
+      },
+      {
+        "source": "relationship",
+        "target": "toxic",
+        "value": 194
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 192
+      },
+      {
+        "source": "anymore",
+        "target": "love",
+        "value": 192
+      },
+      {
+        "source": "added",
+        "target": "life",
+        "value": 192
+      },
+      {
+        "source": "added",
+        "target": "ruin",
+        "value": 190
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 189
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 188
+      },
+      {
+        "source": "better",
+        "target": "love",
+        "value": 186
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 183
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 182
+      },
+      {
+        "source": "feelings",
+        "target": "relationship",
+        "value": 179
+      },
+      {
+        "source": "end",
+        "target": "relationship",
+        "value": 178
+      },
+      {
+        "source": "anymore",
+        "target": "life",
+        "value": 178
+      },
+      {
+        "source": "everything",
+        "target": "hate",
+        "value": 175
+      },
+      {
+        "source": "bad",
+        "target": "relationship",
+        "value": 174
+      },
+      {
+        "source": "better",
+        "target": "relationship",
+        "value": 172
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 171
+      },
+      {
+        "source": "life",
+        "target": "live",
+        "value": 171
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 168
+      }
+    ]
+  },
+  "2023": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 1560
+      },
+      {
+        "id": "friend",
+        "weight": 2337
+      },
+      {
+        "id": "health",
+        "weight": 446
+      },
+      {
+        "id": "mental",
+        "weight": 446
+      },
+      {
+        "id": "love",
+        "weight": 3056
+      },
+      {
+        "id": "relationship",
+        "weight": 2180
+      },
+      {
+        "id": "life",
+        "weight": 2453
+      },
+      {
+        "id": "healthy",
+        "weight": 275
+      },
+      {
+        "id": "hate",
+        "weight": 725
+      },
+      {
+        "id": "without",
+        "weight": 233
+      },
+      {
+        "id": "harm",
+        "weight": 223
+      },
+      {
+        "id": "self",
+        "weight": 223
+      },
+      {
+        "id": "partner",
+        "weight": 384
+      },
+      {
+        "id": "anymore",
+        "weight": 549
+      },
+      {
+        "id": "media",
+        "weight": 205
+      },
+      {
+        "id": "social",
+        "weight": 205
+      },
+      {
+        "id": "everything",
+        "weight": 576
+      },
+      {
+        "id": "close",
+        "weight": 188
+      },
+      {
+        "id": "anything",
+        "weight": 347
+      },
+      {
+        "id": "bad",
+        "weight": 179
+      },
+      {
+        "id": "good",
+        "weight": 689
+      },
+      {
+        "id": "loved",
+        "weight": 179
+      },
+      {
+        "id": "talk",
+        "weight": 340
+      },
+      {
+        "id": "hard",
+        "weight": 176
+      },
+      {
+        "id": "abandonment",
+        "weight": 172
+      },
+      {
+        "id": "fear",
+        "weight": 172
+      },
+      {
+        "id": "hurt",
+        "weight": 170
+      },
+      {
+        "id": "feelings",
+        "weight": 323
+      },
+      {
+        "id": "together",
+        "weight": 317
+      },
+      {
+        "id": "live",
+        "weight": 159
+      },
+      {
+        "id": "care",
+        "weight": 158
+      },
+      {
+        "id": "around",
+        "weight": 156
+      },
+      {
+        "id": "away",
+        "weight": 154
+      },
+      {
+        "id": "push",
+        "weight": 154
+      },
+      {
+        "id": "group",
+        "weight": 150
+      },
+      {
+        "id": "better",
+        "weight": 294
+      },
+      {
+        "id": "romantic",
+        "weight": 145
+      },
+      {
+        "id": "fucking",
+        "weight": 144
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 1090
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 446
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 347
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 333
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 275
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 239
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 233
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 223
+      },
+      {
+        "source": "partner",
+        "target": "relationship",
+        "value": 222
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 221
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 205
+      },
+      {
+        "source": "anymore",
+        "target": "love",
+        "value": 205
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 205
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 204
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 198
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 188
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 188
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 184
+      },
+      {
+        "source": "anymore",
+        "target": "life",
+        "value": 182
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 179
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 179
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 178
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 176
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 176
+      },
+      {
+        "source": "everything",
+        "target": "hate",
+        "value": 174
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 172
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 171
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 170
+      },
+      {
+        "source": "hurt",
+        "target": "love",
+        "value": 170
+      },
+      {
+        "source": "hate",
+        "target": "life",
+        "value": 168
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 168
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 166
+      },
+      {
+        "source": "feelings",
+        "target": "love",
+        "value": 165
+      },
+      {
+        "source": "love",
+        "target": "together",
+        "value": 164
+      },
+      {
+        "source": "anything",
+        "target": "life",
+        "value": 163
+      },
+      {
+        "source": "love",
+        "target": "partner",
+        "value": 162
+      },
+      {
+        "source": "anymore",
+        "target": "talk",
+        "value": 162
+      },
+      {
+        "source": "life",
+        "target": "live",
+        "value": 159
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 158
+      },
+      {
+        "source": "feelings",
+        "target": "relationship",
+        "value": 158
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 156
+      },
+      {
+        "source": "away",
+        "target": "push",
+        "value": 154
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 153
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 153
+      },
+      {
+        "source": "friend",
+        "target": "group",
+        "value": 150
+      },
+      {
+        "source": "better",
+        "target": "relationship",
+        "value": 149
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 146
+      },
+      {
+        "source": "relationship",
+        "target": "romantic",
+        "value": 145
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 145
+      },
+      {
+        "source": "fucking",
+        "target": "hate",
+        "value": 144
+      }
+    ]
+  },
+  "2024": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 2667
+      },
+      {
+        "id": "friend",
+        "weight": 4349
+      },
+      {
+        "id": "health",
+        "weight": 782
+      },
+      {
+        "id": "mental",
+        "weight": 782
+      },
+      {
+        "id": "life",
+        "weight": 4345
+      },
+      {
+        "id": "love",
+        "weight": 5175
+      },
+      {
+        "id": "relationship",
+        "weight": 3326
+      },
+      {
+        "id": "harm",
+        "weight": 416
+      },
+      {
+        "id": "self",
+        "weight": 416
+      },
+      {
+        "id": "hate",
+        "weight": 1295
+      },
+      {
+        "id": "without",
+        "weight": 402
+      },
+      {
+        "id": "everything",
+        "weight": 1285
+      },
+      {
+        "id": "anymore",
+        "weight": 984
+      },
+      {
+        "id": "close",
+        "weight": 375
+      },
+      {
+        "id": "anything",
+        "weight": 875
+      },
+      {
+        "id": "fucking",
+        "weight": 341
+      },
+      {
+        "id": "loved",
+        "weight": 339
+      },
+      {
+        "id": "healthy",
+        "weight": 338
+      },
+      {
+        "id": "partner",
+        "weight": 331
+      },
+      {
+        "id": "media",
+        "weight": 322
+      },
+      {
+        "id": "social",
+        "weight": 322
+      },
+      {
+        "id": "bad",
+        "weight": 562
+      },
+      {
+        "id": "good",
+        "weight": 1418
+      },
+      {
+        "id": "care",
+        "weight": 306
+      },
+      {
+        "id": "talk",
+        "weight": 568
+      },
+      {
+        "id": "hard",
+        "weight": 302
+      },
+      {
+        "id": "better",
+        "weight": 297
+      },
+      {
+        "id": "together",
+        "weight": 288
+      },
+      {
+        "id": "group",
+        "weight": 276
+      },
+      {
+        "id": "hurt",
+        "weight": 265
+      },
+      {
+        "id": "abandonment",
+        "weight": 259
+      },
+      {
+        "id": "fear",
+        "weight": 259
+      },
+      {
+        "id": "end",
+        "weight": 255
+      },
+      {
+        "id": "live",
+        "weight": 254
+      },
+      {
+        "id": "talking",
+        "weight": 254
+      },
+      {
+        "id": "feelings",
+        "weight": 254
+      },
+      {
+        "id": "around",
+        "weight": 254
+      },
+      {
+        "id": "alone",
+        "weight": 250
+      },
+      {
+        "id": "leave",
+        "weight": 250
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 1876
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 782
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 667
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 648
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 416
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 410
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 402
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 400
+      },
+      {
+        "source": "anymore",
+        "target": "love",
+        "value": 380
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 375
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 362
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 356
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 354
+      },
+      {
+        "source": "fucking",
+        "target": "hate",
+        "value": 341
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 339
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 338
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 338
+      },
+      {
+        "source": "anymore",
+        "target": "life",
+        "value": 338
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 336
+      },
+      {
+        "source": "partner",
+        "target": "relationship",
+        "value": 331
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 322
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 312
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 306
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 302
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 302
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 302
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 297
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 290
+      },
+      {
+        "source": "good",
+        "target": "love",
+        "value": 288
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 288
+      },
+      {
+        "source": "friend",
+        "target": "group",
+        "value": 276
+      },
+      {
+        "source": "hate",
+        "target": "life",
+        "value": 276
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 274
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 273
+      },
+      {
+        "source": "everything",
+        "target": "hate",
+        "value": 268
+      },
+      {
+        "source": "anymore",
+        "target": "talk",
+        "value": 266
+      },
+      {
+        "source": "hurt",
+        "target": "love",
+        "value": 265
+      },
+      {
+        "source": "anything",
+        "target": "everything",
+        "value": 261
+      },
+      {
+        "source": "anything",
+        "target": "life",
+        "value": 260
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 260
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 259
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 257
+      },
+      {
+        "source": "end",
+        "target": "relationship",
+        "value": 255
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 255
+      },
+      {
+        "source": "life",
+        "target": "live",
+        "value": 254
+      },
+      {
+        "source": "friend",
+        "target": "talking",
+        "value": 254
+      },
+      {
+        "source": "feelings",
+        "target": "relationship",
+        "value": 254
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 254
+      },
+      {
+        "source": "bad",
+        "target": "love",
+        "value": 250
+      },
+      {
+        "source": "alone",
+        "target": "leave",
+        "value": 250
+      }
+    ]
+  },
+  "2025": {
+    "nodes": [
+      {
+        "id": "best",
+        "weight": 2061
+      },
+      {
+        "id": "friend",
+        "weight": 3780
+      },
+      {
+        "id": "health",
+        "weight": 569
+      },
+      {
+        "id": "mental",
+        "weight": 569
+      },
+      {
+        "id": "life",
+        "weight": 3873
+      },
+      {
+        "id": "love",
+        "weight": 3474
+      },
+      {
+        "id": "relationship",
+        "weight": 2015
+      },
+      {
+        "id": "hate",
+        "weight": 1012
+      },
+      {
+        "id": "without",
+        "weight": 328
+      },
+      {
+        "id": "close",
+        "weight": 315
+      },
+      {
+        "id": "harm",
+        "weight": 294
+      },
+      {
+        "id": "self",
+        "weight": 294
+      },
+      {
+        "id": "everything",
+        "weight": 972
+      },
+      {
+        "id": "partner",
+        "weight": 267
+      },
+      {
+        "id": "healthy",
+        "weight": 256
+      },
+      {
+        "id": "anything",
+        "weight": 455
+      },
+      {
+        "id": "better",
+        "weight": 245
+      },
+      {
+        "id": "anymore",
+        "weight": 661
+      },
+      {
+        "id": "media",
+        "weight": 234
+      },
+      {
+        "id": "social",
+        "weight": 234
+      },
+      {
+        "id": "group",
+        "weight": 231
+      },
+      {
+        "id": "live",
+        "weight": 230
+      },
+      {
+        "id": "good",
+        "weight": 835
+      },
+      {
+        "id": "together",
+        "weight": 427
+      },
+      {
+        "id": "fucking",
+        "weight": 225
+      },
+      {
+        "id": "talk",
+        "weight": 426
+      },
+      {
+        "id": "hard",
+        "weight": 403
+      },
+      {
+        "id": "care",
+        "weight": 216
+      },
+      {
+        "id": "abandonment",
+        "weight": 208
+      },
+      {
+        "id": "fear",
+        "weight": 208
+      },
+      {
+        "id": "around",
+        "weight": 206
+      },
+      {
+        "id": "loved",
+        "weight": 205
+      },
+      {
+        "id": "bad",
+        "weight": 598
+      },
+      {
+        "id": "wanted",
+        "weight": 198
+      },
+      {
+        "id": "met",
+        "weight": 184
+      },
+      {
+        "id": "hurt",
+        "weight": 182
+      }
+    ],
+    "links": [
+      {
+        "source": "best",
+        "target": "friend",
+        "value": 1461
+      },
+      {
+        "source": "health",
+        "target": "mental",
+        "value": 569
+      },
+      {
+        "source": "life",
+        "target": "love",
+        "value": 437
+      },
+      {
+        "source": "love",
+        "target": "relationship",
+        "value": 396
+      },
+      {
+        "source": "hate",
+        "target": "love",
+        "value": 389
+      },
+      {
+        "source": "life",
+        "target": "without",
+        "value": 328
+      },
+      {
+        "source": "close",
+        "target": "friend",
+        "value": 315
+      },
+      {
+        "source": "harm",
+        "target": "self",
+        "value": 294
+      },
+      {
+        "source": "everything",
+        "target": "life",
+        "value": 293
+      },
+      {
+        "source": "everything",
+        "target": "love",
+        "value": 278
+      },
+      {
+        "source": "friend",
+        "target": "life",
+        "value": 270
+      },
+      {
+        "source": "partner",
+        "target": "relationship",
+        "value": 267
+      },
+      {
+        "source": "life",
+        "target": "relationship",
+        "value": 257
+      },
+      {
+        "source": "healthy",
+        "target": "relationship",
+        "value": 256
+      },
+      {
+        "source": "anything",
+        "target": "love",
+        "value": 250
+      },
+      {
+        "source": "friend",
+        "target": "love",
+        "value": 249
+      },
+      {
+        "source": "better",
+        "target": "life",
+        "value": 245
+      },
+      {
+        "source": "anymore",
+        "target": "love",
+        "value": 244
+      },
+      {
+        "source": "media",
+        "target": "social",
+        "value": 234
+      },
+      {
+        "source": "friend",
+        "target": "group",
+        "value": 231
+      },
+      {
+        "source": "life",
+        "target": "live",
+        "value": 230
+      },
+      {
+        "source": "friend",
+        "target": "good",
+        "value": 230
+      },
+      {
+        "source": "relationship",
+        "target": "together",
+        "value": 226
+      },
+      {
+        "source": "fucking",
+        "target": "hate",
+        "value": 225
+      },
+      {
+        "source": "friend",
+        "target": "talk",
+        "value": 223
+      },
+      {
+        "source": "friend",
+        "target": "relationship",
+        "value": 223
+      },
+      {
+        "source": "hard",
+        "target": "love",
+        "value": 221
+      },
+      {
+        "source": "care",
+        "target": "love",
+        "value": 216
+      },
+      {
+        "source": "anymore",
+        "target": "life",
+        "value": 214
+      },
+      {
+        "source": "abandonment",
+        "target": "fear",
+        "value": 208
+      },
+      {
+        "source": "best",
+        "target": "life",
+        "value": 207
+      },
+      {
+        "source": "around",
+        "target": "life",
+        "value": 206
+      },
+      {
+        "source": "best",
+        "target": "love",
+        "value": 206
+      },
+      {
+        "source": "love",
+        "target": "loved",
+        "value": 205
+      },
+      {
+        "source": "anything",
+        "target": "life",
+        "value": 205
+      },
+      {
+        "source": "good",
+        "target": "relationship",
+        "value": 203
+      },
+      {
+        "source": "anymore",
+        "target": "talk",
+        "value": 203
+      },
+      {
+        "source": "bad",
+        "target": "life",
+        "value": 203
+      },
+      {
+        "source": "everything",
+        "target": "hate",
+        "value": 202
+      },
+      {
+        "source": "good",
+        "target": "life",
+        "value": 202
+      },
+      {
+        "source": "love",
+        "target": "together",
+        "value": 201
+      },
+      {
+        "source": "bad",
+        "target": "good",
+        "value": 200
+      },
+      {
+        "source": "everything",
+        "target": "friend",
+        "value": 199
+      },
+      {
+        "source": "life",
+        "target": "wanted",
+        "value": 198
+      },
+      {
+        "source": "hate",
+        "target": "life",
+        "value": 196
+      },
+      {
+        "source": "bad",
+        "target": "friend",
+        "value": 195
+      },
+      {
+        "source": "best",
+        "target": "relationship",
+        "value": 187
+      },
+      {
+        "source": "friend",
+        "target": "met",
+        "value": 184
+      },
+      {
+        "source": "hard",
+        "target": "life",
+        "value": 182
+      },
+      {
+        "source": "hurt",
+        "target": "love",
+        "value": 182
+      }
+    ]
+  }
+}

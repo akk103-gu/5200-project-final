@@ -1,0 +1,656 @@
+/* ── Reset ───────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Base ────────────────────────────────────────────────────────── */
+body {
+  font-family: Georgia, serif;
+  background: #2f203b;
+  color: #1a1a1a;
+}
+
+/* ── VHS overlays ────────────────────────────────────────────────── */
+
+/* Radial vignette */
+body::before {
+  content: '';
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,.4) 100%);
+  z-index: 500;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+/* Top/bottom gradient darkening */
+body::after {
+  content: '';
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.4) 0%,
+    transparent 15%,
+    transparent 85%,
+    rgba(0,0,0,0.2) 100%
+  );
+  pointer-events: none;
+  z-index: 499;
+}
+
+/* Noise grain */
+.noise {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 400;
+  opacity: .5;
+  pointer-events: none;
+}
+
+.noise::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('https://ice-creme.de/images/background-noise.png');
+  pointer-events: none;
+}
+
+.noise-moving {
+  opacity: 0.8;
+  z-index: 450;
+}
+
+.noise-moving::before {
+  will-change: background-position;
+  animation: noise 1s infinite alternate;
+}
+
+/* Scanlines */
+.scanlines {
+  position: fixed;
+  left: 0; top: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 300;
+  opacity: .6;
+  will-change: opacity;
+  animation: opacity 3s linear infinite;
+}
+
+.scanlines::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,.5) 51%);
+  background-size: 100% 4px;
+  will-change: background, background-size;
+  animation: scanlines .2s linear infinite;
+}
+
+/* Container that holds the VHS noise layers */
+.intro-wrap {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 399;
+}
+
+.intro-wrap .noise::before {
+  background-size: 200%;
+}
+
+/* ── Animations ──────────────────────────────────────────────────── */
+@keyframes noise {
+  0%, 100% { background-position: 0 0; }
+  10%  { background-position: -5% -10%; }
+  20%  { background-position: -15% 5%; }
+  30%  { background-position: 7% -25%; }
+  40%  { background-position: 20% 25%; }
+  50%  { background-position: -25% 10%; }
+  60%  { background-position: 15% 5%; }
+  70%  { background-position: 0 15%; }
+  80%  { background-position: 25% 35%; }
+  90%  { background-position: -10% 10%; }
+}
+
+@keyframes opacity {
+  0%   { opacity: .25; }
+  20%  { opacity: .2;  }
+  35%  { opacity: .25; }
+  50%  { opacity: .35; }
+  60%  { opacity: .2;  }
+  80%  { opacity: .3;  }
+  100% { opacity: .25; }
+}
+
+@keyframes scanlines {
+  from {
+    background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,.5) 51%);
+    background-size: 100% 4px;
+  }
+  to {
+    background: linear-gradient(to bottom, rgba(0,0,0,.5) 50%, transparent 51%);
+    background-size: 100% 4px;
+  }
+}
+
+/* ── Shared components ───────────────────────────────────────────── */
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+.box {
+  max-width: 680px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  background-color: rgba(10,10,20,0.65);
+  border: 6px solid rgba(206,168,168,0.85);
+  border-radius: 8px;
+  color: #d69f9f;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.box_quote {
+  max-width: 680px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  background-color: rgba(184,137,149,0.65);
+  border: 6px solid rgba(206,168,168,0.85);
+  border-radius: 8px;
+  color: #d89292;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+/* D3 crosshair (shared across all linked charts) */
+.crosshair {
+  stroke: #888;
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+  pointer-events: none;
+}
+
+/* Legend swatch (shared across sentiment + emotion) */
+.legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* ── Section: Google Trends ──────────────────────────────────────── */
+#trends-section {
+  padding: 5rem 8%;
+  background: #151927;
+}
+
+.trends-header {
+  margin-bottom: 2.5rem;
+}
+
+.trends-header h2 {
+  font-size: 1.5rem;
+  color: #d69f9f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.trends-header p {
+  font-size: 1rem;
+  color: #b8a8a8;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+.trends-body {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.trends-widget-wrap {
+  flex: 0 0 55%;
+  display: flex;
+  justify-content: center;
+}
+
+#trends-chart {
+  width: 100%;
+  height: 320px;
+  display: block;
+  overflow: visible;
+}
+
+.trends-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trends-side .box,
+.trends-side .box_quote {
+  max-width: 100%;
+  margin: 0;
+}
+
+/* ── Section: Word frequency scrolly ────────────────────────────── */
+#scroll-container {
+  position: relative;
+}
+
+#chart-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+#chart-sticky h2 {
+  font-size: 1.5rem;
+  color: #d69f9f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.charts-row {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex: 1;
+}
+
+.charts-row svg {
+  flex: 1;
+  height: 100%;
+  overflow: visible;
+}
+
+#scroll-steps {
+  position: relative;
+  margin-left: 60%;
+  margin-top: -100vh;
+  width: 40%;
+  z-index: 2;
+  padding: 0 2rem;
+}
+
+.step {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+.step.is-active { opacity: 1; }
+
+.step .box,
+.step .box_quote {
+  max-width: 100%;
+  margin: 0;
+}
+
+.step .year-label {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #d69f9f;
+  line-height: 1;
+}
+
+.step p {
+  font-size: 1.0rem;
+  line-height: 1.65;
+  max-width: 28ch;
+  color: #b8a8a8;
+}
+
+/* Bar chart */
+.bar-bpd   { fill: #8a809700; }
+.bar-loved { fill: #cac2d600; }
+
+rect.bar {
+  stroke: rgb(206,168,168);
+  stroke-width: 1px;
+}
+
+.chart-title {
+  font-size: 12px;
+  font-weight: bold;
+  fill: #d69f9f;
+}
+
+.axis text {
+  font-size: 12px;
+  fill: #b8a8a8;
+}
+
+.axis path,
+.axis line {
+  stroke: rgba(206,168,168,0.25);
+}
+
+/* Sentiment bar colours — 4-tier scale */
+.bar-positive   { fill: #f0be60; }
+.bar-slight-pos { fill: #ddabca00; }
+.bar-slight-neg { fill: #9f99aa00; }
+.bar-negative   { fill: #b64646cc; }
+
+/* ── Section: Then & Now ─────────────────────────────────────────── */
+#thennow-section {
+  padding: 5rem 8%;
+  background: #151927;
+}
+
+.thennow-header {
+  margin-bottom: 3rem;
+}
+
+.thennow-header h2 {
+  font-size: 1.5rem;
+  color: #d69f9f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.thennow-header p {
+  font-size: 1rem;
+  color: #b8a8a8;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+.thennow-panels {
+  display: flex;
+  gap: 4rem;
+}
+
+.thennow-panel { flex: 1; }
+
+.thennow-panel h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d69f9f;
+  margin-bottom: 1.5rem;
+}
+
+.thennow-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.thennow-col { flex: 1; }
+
+.thennow-year {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #d69f9f;
+  line-height: 1;
+  margin-bottom: 1.25rem;
+}
+
+.thennow-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  align-items: baseline;
+}
+
+.vocab-word {
+  font-weight: 500;
+  color: #b8a8a8;
+  line-height: 1.4;
+}
+
+.vocab-word.word-positive   { color: #2fee95; }
+.vocab-word.word-slight-pos { color: #c9a0c000; }
+.vocab-word.word-slight-neg { color: #a8a4b000; }
+.vocab-word.word-negative   { color: #8b3535; font-weight: 700; }
+
+.thennow-divider {
+  font-size: 1.5rem;
+  color: #ccc;
+  padding-top: 0.5rem;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+/* ── Shared scrollytelling layout ───────────────────────────────── */
+.scrolly-container { position: relative; }
+
+.scrolly-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 2rem 2rem 8%;
+  z-index: 1;
+  background: #151927;
+}
+
+.scrolly-steps {
+  position: relative;
+  margin-left: 60%;
+  margin-top: -100vh;
+  width: 40%;
+  z-index: 2;
+  padding: 0 2rem;
+}
+
+.scrolly-step {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+.scrolly-step.is-active { opacity: 1; }
+
+.scrolly-step .box,
+.scrolly-step .box_quote { max-width: 100%; margin: 0; }
+
+.scrolly-step .year-label {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #d69f9f;
+  line-height: 1;
+}
+
+/* ── Section: Sentiment ──────────────────────────────────────────── */
+#sentiment-section {
+  padding: 0;
+  background: #151927;
+}
+
+.sentiment-header { margin-bottom: 2.5rem; }
+
+.sentiment-header h2 {
+  font-size: 1.5rem;
+  color: #d69f9f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.sentiment-header p {
+  font-size: 1rem;
+  color: #b8a8a8;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+.sentiment-charts-row {
+  display: flex;
+  gap: 3rem;
+}
+
+.sentiment-chart-wrap { flex: 1; }
+
+.sentiment-chart-wrap h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d69f9f;
+  margin-bottom: 0.5rem;
+}
+
+.sentiment-chart-wrap svg {
+  width: 100%;
+  height: 360px;
+  overflow: visible;
+  display: block;
+}
+
+.sentiment-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #b8a8a8;
+}
+
+.sentiment-legend span {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* ── Section: Emotions ───────────────────────────────────────────── */
+#emotion-section {
+  padding: 0;
+  background: #151927;
+}
+
+.emotion-header { margin-bottom: 2.5rem; }
+
+.emotion-header h2 {
+  font-size: 1.5rem;
+  color: #d69f9f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-header p {
+  font-size: 1rem;
+  color: #b8a8a8;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+.emotion-charts-row {
+  display: flex;
+  gap: 3rem;
+}
+
+.emotion-chart-wrap { flex: 1; }
+
+.emotion-chart-wrap h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d69f9f;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-chart-wrap svg {
+  width: 100%;
+  height: 400px;
+  overflow: visible;
+  display: block;
+}
+
+.emotion-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #b8a8a8;
+}
+
+.emotion-legend span {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* ── Section: Co-occurrence force graph ──────────────────────────── */
+#cooc-section {
+  padding: 5rem 8%;
+  background: #151927;
+}
+
+.cooc-header { margin-bottom: 1.5rem; }
+
+.cooc-header h2 {
+  font-size: 1.5rem;
+  color: #d69f9f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.cooc-header p {
+  font-size: 1rem;
+  color: #b8a8a8;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+.cooc-body { position: relative; }
+
+#cooc-chart {
+  width: 100%;
+  height: 560px;
+  display: block;
+  overflow: visible;
+  background: rgba(10,10,20,0.45);
+  border: 1px solid rgba(206,168,168,0.2);
+  border-radius: 4px;
+}
+
+#cooc-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(10,10,20,0.9);
+  border: 1px solid rgba(206,168,168,0.5);
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: #d69f9f;
+  font-size: 12px;
+  display: none;
+  white-space: nowrap;
+}
