@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(ls .git/rebase-merge)",
+      "Bash(ls .git/rebase-apply)",
+      "Bash(gh api *)",
+      "PowerShell(gh api repos/akk103-gu/5200-project-final/pages 2>&1)"
     ]
   }
 }
