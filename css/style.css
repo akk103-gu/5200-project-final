@@ -709,12 +709,14 @@ rect.bar {
   position: relative;
   flex: 1;
   min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #cooc-chart {
   width: 100%;
-  height: auto;
-  max-height: 100%;
+  flex: 1;
+  min-height: 0;
   display: block;
   overflow: visible;
   background: rgba(10,10,20,0.45);

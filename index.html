@@ -518,7 +518,7 @@ I love him to bits but hate how he makes me feel."</p>
     </div>
 
     <div class="scrolly-sticky">
-      <h2 class="section-label">Word Co-occurrence Network</h2>
+      <h2 class="section-label">Word Co-occurrence</h2>
       <h3>Words that appear near each other in posts are connected. Node size reflects how often a word co-occurs with others; edge thickness reflects how frequently a pair appears together. Drag nodes to explore.</h3>
       <div class="cooc-body">
         <svg id="cooc-chart"></svg>
@@ -565,7 +565,14 @@ I see a lot of people say 'life is not worth living if you don't have a favorite
         <img src="img/fishing.gif" style="width: 250px;">
       </div>
     </div>
-    
+        <div class="scrolly-step">
+      <div class="box">
+        <h2>Conclusion</h2>
+        <p>On one hand, the meaning of the "favorite person" is intuitive, and gives a name to a relationship style that's recognizable to people who've experienced or seen it. The sentiments that come with the F.P. can help
+        one understand that a cherished relationship in their life might not be healthy in its current state. At the same time,
+        giving this phenomenon a name at all makes it more "real". One suffering from a personality disorder should be wary of the tendency to instinctively pathologize one's own friendships.</p>
+      </div>
+    </div>
   </div>
   <div class="scrolly-sticky" id="intro-sticky">
     <h2 class="section-label">What Can we learn?</h2>
@@ -1040,8 +1047,8 @@ async function initEmotions() {
 async function initTrendsChart() {
   const MARGIN = { top: 0, right: 24, bottom: 48, left: 56 };
   const COLORS = {
-    "bpd fp":              "#d69f9f",
-    "bpd favorite person": "#CEA8A8"
+    "bpd fp":              "#cc7a96",
+    "bpd favorite person": "#9898c4"
   };
 
   const raw = await d3.csv("data/fp_search_trends.csv", d => ({
@@ -1252,7 +1259,7 @@ async function initPostCounts() {
   const data = await d3.json("data/post_counts_by_year.json");
 
   const MARGIN = { top: 28, right: 20, bottom: 48, left: 56 };
-  const COLORS = { BPD: "#d69f9f", BPDlovedones: "#CEA8A8" };
+  const COLORS = { BPD: "#cc7a96", BPDlovedones: "#9898c4" };
   const SUBS   = ["BPD", "BPDlovedones"];
 
   const svgEl  = document.getElementById("post-counts-chart");
