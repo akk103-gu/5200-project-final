@@ -1,5 +1,8 @@
-# Raw data — exclude CSVs but keep processed JSON outputs
+# Raw data — exclude CSVs but keep processed JSON outputs and small chart inputs
 data/*.csv
+!data/fp_search_trends.csv
+!data/sentiment_props_by_year.csv
+!data/emotion_props_by_year.csv
 
 # Virtual environment
 .venv/
