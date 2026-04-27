@@ -8,6 +8,10 @@ body {
   color: #1a1a1a;
 }
 
+a { color: #c9a0c0; }
+a:visited { color: #a886a0; }
+a:hover { color: #e8c8e0; }
+
 svg text {
   font-family: Georgia, serif;
 }
