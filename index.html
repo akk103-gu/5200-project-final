@@ -1147,8 +1147,9 @@ async function initForceGraph() {
 
   const svgEl   = document.getElementById("cooc-chart");
   const tooltip = document.getElementById("cooc-tooltip");
-  const W       = svgEl.getBoundingClientRect().width  || 800;
-  const H       = svgEl.getBoundingClientRect().height || 560;
+  const W       = 800;
+  const H       = 560;
+  d3.select(svgEl).attr("viewBox", `0 0 ${W} ${H}`).attr("preserveAspectRatio", "xMidYMid meet");
 
   // ── Year filter buttons ───────────────────────────────────────────
   const controlsEl = document.createElement("div");
