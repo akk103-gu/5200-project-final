@@ -622,20 +622,29 @@ rect.bar {
 .emotion-charts-row {
   display: flex;
   gap: 3rem;
+  flex: 1;
+  min-height: 0;
 }
 
-.emotion-chart-wrap { flex: 1; }
+.emotion-chart-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 
 .emotion-chart-wrap h3 {
   font-size: 1rem;
   font-weight: bold;
   color: #d69f9f;
+  margin-top: 0;
   margin-bottom: 0.5rem;
+  flex-shrink: 0;
 }
 
 .emotion-chart-wrap svg {
   width: 100%;
-  height: 180px;
+  flex: 1;
+  min-height: 0;
   overflow: visible;
   display: block;
 }
@@ -650,21 +659,24 @@ rect.bar {
   margin-bottom: 0.15rem;
 }
 
-.emotion-legends-row {
+.emotion-col-headers {
   display: flex;
-  gap: 2rem;
-  margin-top: 0.5rem;
+  gap: 3rem;
+  flex-shrink: 0;
 }
 
-.emotion-legends-row > div { flex: 1; }
-
-.emotion-legend-label {
-  font-size: 0.75rem;
+.emotion-col-headers span {
+  flex: 1;
+  font-size: 1rem;
   font-weight: bold;
-  color: #b8a8a8;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.3rem;
+  color: #d69f9f;
+}
+
+.emotion-valence-group {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .emotion-legend {
@@ -672,6 +684,7 @@ rect.bar {
   flex-wrap: wrap;
   gap: 0.5rem 1rem;
   font-size: 0.8rem;
+  margin-top: 0.5rem;
   color: #b8a8a8;
 }
 
@@ -811,7 +824,6 @@ rect.bar {
   .emotion-charts-row { flex-direction: column; gap: 1.5rem; }
 
   .sentiment-chart-wrap svg { height: 240px; }
-  .emotion-chart-wrap svg  { height: 130px; }
 
   .page-stripe { display: none; }
 
